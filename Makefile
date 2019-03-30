@@ -3,11 +3,14 @@ all: init compile package
 init: kit-init kit-package
 
 kit-init:
-	git clone https://github.com/creativetimofficial/material-kit.git kit
+	@if [ ! -d kit ] ; then \
+		git clone https://github.com/creativetimofficial/material-kit.git kit;\
+	 fi
 	cd kit ; npm install
 
 kit-package:
 	cd kit;./node_modules/gulp/bin/gulp.js compile-scss
+	mkdir -p out/assets
 	cp -r kit/assets out/assets
 
 compile:

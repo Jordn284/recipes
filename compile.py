@@ -1,10 +1,15 @@
 from os import listdir
 from os.path import isfile, join
+import os
 
 from jinja2 import Template, FileSystemLoader, Environment
 import yaml
 
 recipes_folder="./recipes"
+out_dir="out"
+if not os.path.exists(out_dir):
+    os.makedirs(out_dir)
+
 env = Environment(loader=FileSystemLoader('templates'))
 template = env.get_template('recipe_template.j2')
 yamls = [f for f in listdir(recipes_folder) if isfile(join(recipes_folder, f)) and f.endswith(".yml")]
