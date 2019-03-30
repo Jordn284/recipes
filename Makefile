@@ -10,7 +10,7 @@ kit-init:
 
 kit-package:
 	cd kit;./node_modules/gulp/bin/gulp.js compile-scss
-	mkdir -p out/assets
+	mkdir -p out
 	cp -r kit/assets out/assets
 
 compile:
