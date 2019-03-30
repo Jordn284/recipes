@@ -1,0 +1,43 @@
+title: Szechuan beef
+ingredients:
+  - 3 Tablespoons Soy Sauce
+  - 1 Teaspoon Garlic Minced
+  - Chilli
+  - Szechuan pepper
+  - Bean paste
+  - Baking soda
+  - Acid
+  - water
+  - 2 Teaspoons Cornstarch
+  - 1 Teaspoon Rice Wine
+  - 2 Teaspoons Soy sauce
+  - Beef
+  - 2 Carrots Cut Into Matchsticks
+  - 2 Green Onions Sliced on the Diagonal into 1/2 Inch Pieces
+  - 2 Cloves Garlic Roughly Chopped
+  - Pak Choi
+
+instructions:
+  - descr: foo
+    full: bar
+
+  - descr: bazz
+    full: bubub
+
+
+  - descr: Prepare Beef
+    full: In a bowl, prepare baking soda solution, add beef, let sit for 15 minutes. Rinse with acid to get rid of weird taste.
+  - descr: Prepare sauce
+    full: In a small bowl mix together all the sauce ingredients and set aside.
+  - descr: Prepare rice
+    full: Start to boil the water for the rice
+  - descr: cook Pak Choi
+    full: cook Pak Choi for 3 minutes, throw into cold water, set aside.
+  - descr: Marinade
+    full: In a large bowl whisk together the beef marinade ingredients until smooth. Add sliced beef and toss to evenly coat. Marinade for 15 minutes.
+  - descr: Cook rice
+    full: Cook rice
+  - descr: Fry beef
+    full: Heat up a wok or large skillet on high heat with 1 tablespoon of oil. When oil is hot, add the beef, and turn a few times, cooking until edges of meat brown. Remove cooked meat to a plate; set aside.
+  - descr: Fry Veggies
+    full: Fry all the veggies except garlic. Return the cooked meat to the pan with garlic and sauce. Bring to a quick boil. Cook for one minute and serve over rice.

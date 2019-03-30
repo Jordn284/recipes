@@ -1,0 +1,11 @@
+
+{% extends 'template.html' %}
+{% block content %}
+<div class="row">
+  <div class="list-group col-lg-3 col-md-4 col-sm-6 mx-auto">
+    {% for r in recipes %}
+      <a href="{{r.url}}" class="list-group-item list-group-item-action">{{r.title}}</a>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

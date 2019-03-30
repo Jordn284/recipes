@@ -1,0 +1,27 @@
+{% extends 'rec_template.html' %}
+
+{% block titleblk%}
+<h1>{{ title }}</h1>
+<h3 class="title text-center">{{subtitle}}</h3>
+{% endblock %}
+
+{% block content %}
+
+<h2 class="title">Ingredients</h2>
+<ul class="list-group col-lg-3 col-md-4 col-sm-6 mx-auto">
+    {% for i in ingredients%}
+      <li class="list-group-item"> {{ i }} </li>
+    {% endfor %}
+</ul>
+ 
+<h2 class="title">Instructions</h2>
+  {% for i in instructions%}
+    <div class="card">
+      <div class="card-header card-header-primary">{{i.descr}}</div>
+      <div class="card-body">
+        <p class="card-text">{{i.full}}</p>
+      </div>
+    </div>
+  {% endfor %}
+
+{% endblock %}

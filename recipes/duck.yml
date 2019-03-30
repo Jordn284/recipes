@@ -1,0 +1,12 @@
+title: Duck
+ingredients:
+  - x
+  - y
+  - z
+instructions:
+  - descr: foo
+    full: bar
+
+  - descr: bazz
+    full: bubub
+
